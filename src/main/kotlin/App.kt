@@ -16,7 +16,7 @@ class HelloWorld : Application(){
         }
 
         primaryStage?.run {
-            scene = Scene(layout)
+            scene = Scene(layout, 200.0, 100.0)
             show()
         }
     }
