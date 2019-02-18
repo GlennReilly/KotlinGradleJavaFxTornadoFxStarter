@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tornadoFxDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/tornadoFxDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tornadoFxDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tornadoFxDemo_main.iml" group="tornadoFxDemo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tornadoFxDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tornadoFxDemo_test.iml" group="tornadoFxDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MidiTornadoFx.iml" filepath="$PROJECT_DIR$/.idea/modules/MidiTornadoFx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MidiTornadoFx_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MidiTornadoFx_main.iml" group="MidiTornadoFx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MidiTornadoFx_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MidiTornadoFx_test.iml" group="MidiTornadoFx" />
     </modules>
   </component>
 </project>
