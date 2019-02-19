@@ -6,7 +6,6 @@ import javafx.scene.control.Label
 import javafx.scene.layout.VBox
 import javafx.stage.Stage
 import tornadofx.action
-import tornadofx.show
 
 fun main(args: Array<String>) {
     launch(HelloWorld::class.java)
@@ -25,12 +24,14 @@ class HelloWorld : Application() {
             val playButton = Button("Play").apply {
                 action {
                     resultLabel.setText("Playing..")
+                    MidiManager.play()
                 }
             }
 
             val stopButton = Button("Stop").apply {
                 action {
                     resultLabel.setText("..Now stopped.")
+                    MidiManager.stop()
                 }
             }
 
@@ -41,7 +42,7 @@ class HelloWorld : Application() {
         }
 
         primaryStage?.run {
-            scene = Scene(layout, 200.0, 100.0)
+            scene = Scene(layout, 400.0, 300.0)
             show()
         }
     }
